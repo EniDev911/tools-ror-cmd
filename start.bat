@@ -29,7 +29,9 @@ for /F "tokens=1,2,3 delims=<>" %%a in (programas.txt) do (
   )
 )
 
-if exist %RUBYROOT%\bin\gem.cmd (%RUBYROOT%\bin\gem.cmd install rails --no-document)
+if exist %RUBYROOT%\bin\gem.cmd (%RUBYROOT%\bin\gem.cmd install rails --no-document) else (
+  echo "No tienes ruby instalado"
+)
 
 echo "Proceso completado. Presiona Enter para salir..."
 pause>nul
