@@ -1,6 +1,6 @@
 "https://drive.google.com/uc?export=download&confirm=t&id=1CQNRqy6YapwSn4YhC-HtuFNHlPHUF1ml"<>"C:\\Program Files\\Microsoft VS Code\\Code.exe"<>Visual Studio Code
 "https://drive.google.com/uc?export=download&confirm=t&id=1MXXUBV3_k2NWHi8ooNEgg05R9a_HUarr"<>"C:\Program Files\Git\bin\git.exe"<>Git
 "https://drive.google.com/uc?export=download&confirm=t&id=1mwJPLhr4frFa6Yx5GR1TmTJEi7pIZk6y"<>"\\AppData\\Local\\Postman\\Postman.exe"<>Postman
-"https://drive.google.com/uc?export=download&confirm=t&id=1lO0sNe4LLvXCW5s9M29e0Allqi84TE86"<>"C:\\Ruby30-x64\\bin\\ruby.exe"<>Ruby
 "https://drive.google.com/uc?export=download&confirm=t&id=15KmNWi82l0YJxmTVF9yCu0tCrkvGadSG"<>"C:\\Program Files\\PostgreSQL\\12\\bin\\psql.exe"<>PostgreSQL
 "https://drive.google.com/uc?export=download&confirm=t&id=18PujAGXioq4Hsau0uGG5y5pYgOvQlaSP"<>"C:\\Program Files\\pgAdmin 4\v5\\runtime\\pgAdmin4.exe"<>PgAdmin4
+"https://drive.google.com/uc?export=download&confirm=t&id=1lO0sNe4LLvXCW5s9M29e0Allqi84TE86"<>"C:\\Ruby30-x64\\bin\\ruby.exe"<>Ruby
