@@ -29,7 +29,7 @@ for /F "tokens=1,2,3 delims=<>" %%a in (programas.txt) do (
   )
 )
 
-if not exist %RUBYROOT% (%RUBYROOT%\bin\gem.cmd install rails --no-document)
+if exist %RUBYROOT%\bin\gem.cmd (%RUBYROOT%\bin\gem.cmd install rails --no-document)
 
 echo "Proceso completado. Presiona Enter para salir..."
 pause>nul
