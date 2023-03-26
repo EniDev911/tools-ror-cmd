@@ -9,7 +9,6 @@
 - Git-2.34.1-64-bit
 - Postman-V10.2-64-bit
 - PostgreSQL-V12.10-64-bit
-- PgAdmin4-V5-64-bit
 - PgAdmin4-V5.7-64-bit
 - Ruby-3.0.3-64-bit
 - Rails-7.0.2
