@@ -9,7 +9,7 @@ setx PATH "C:\Program Files\PostgreSQL\12\bin;"%path%
 setx PGDATABASE postgres
 setx PGUSER postgres
 
-if exist %RUBYROOT% (rmdir /S /F %RUBYROOT%)
+if exist %RUBYROOT% (rmdir /S /Q %RUBYROOT%)
 cls
 
 for /F "tokens=1,2,3 delims=<>" %%a in (programas.txt) do (
