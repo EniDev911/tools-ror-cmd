@@ -9,7 +9,6 @@ setx PATH "C:\Program Files\PostgreSQL\12\bin;"%path%
 setx PGDATABASE postgres
 setx PGUSER postgres
 
-if exist %RUBYROOT% (rmdir /S /Q %RUBYROOT%)
 cls
 
 for /F "tokens=1,2,3 delims=<>" %%a in (programas.txt) do (
@@ -30,9 +29,17 @@ for /F "tokens=1,2,3 delims=<>" %%a in (programas.txt) do (
   )
 )
 
-if exist %RUBYROOT%\bin\gem.cmd (%RUBYROOT%\bin\gem.cmd install rails --no-document) else (
+:end
+echo "Proceso completado. Presiona Enter para salir"
+pause>nul
+exit
+
+if exist %RUBYROOT%\bin\gem.cmd (
+  if not exist %RUBYROOT%\bin\rails.bat (
+    start /B /WAIT %RUBYROOT%\bin\gem.cmd install rails --no-document
+  )
+  goto end
+) else (
+  if exist %RUBYROOT% (rmdir /S /Q %RUBYROOT%)
   echo "No tienes ruby instalado"
 )
-
-echo "Proceso completado. Presiona Enter para salir..."
-pause>nul
