@@ -11,7 +11,7 @@
 - PostgreSQL-V12.10-64-bit
 - PgAdmin4-V5.7-64-bit
 - Ruby-3.0.3-64-bit
-- Rails-7.0.2
+- Rails-7.0.4
 
 > El password del superusuario **postgres** es **postgres**
 
